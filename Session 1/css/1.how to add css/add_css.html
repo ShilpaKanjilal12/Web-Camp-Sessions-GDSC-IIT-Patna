@@ -1,0 +1,44 @@
+<!-- 
+How To ADD CSS?
+There are three ways to add CSS to HTML:-
+1. External CSS
+2. Internal CSS
+3. Inline CSS
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to add css</title>
+
+    <!-- 1. External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- 2. Internal CSS -->
+    <style>
+        .para2 {
+            color: rgb(0, 4, 81);
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p class="para1">I am External css</p>
+    <p class="para2">I am Internal css</p>
+
+    <!-- 3. Inline CSS -->
+    <p class="para3" style="color: rgb(1, 209, 1); font-size: 20px; text-align: center;">I am Inline css</p>
+
+    <!-- You can also use Id selector in CSS. -->
+    <p id="para4">I am selected by id</p>
+</body>
+
+</html>

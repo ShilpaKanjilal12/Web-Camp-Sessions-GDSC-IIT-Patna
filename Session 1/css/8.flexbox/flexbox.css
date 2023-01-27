@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: right;
+    /* height:200px;
+    align-items: center; */
+    /* justify-content: center; */
+    background-color: rgb(240, 255, 30);
+}
+
+.card {
+    background-color: #0077ff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.center {
+    background-color: #0077ff;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}

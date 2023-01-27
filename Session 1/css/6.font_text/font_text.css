@@ -1,0 +1,30 @@
+.font {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    /* font: italic small-caps bold 30px 'Courier New', Courier, monospace; */
+}
+
+.text {
+    color: rgb(238, 53, 6);
+    border: 1px solid black;
+    padding: 10px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.text2 {
+    margin-top: 50px;
+    text-decoration-line: overline;
+    text-decoration-color: darkblue;
+    /* text-decoration-style: wavy; */
+    text-decoration-thickness: 5px;
+    /* text-decoration: overline darkblue wavy 5px; */
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 5px red;
+}
