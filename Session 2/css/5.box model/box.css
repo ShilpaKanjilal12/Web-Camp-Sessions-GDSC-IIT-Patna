@@ -1,0 +1,22 @@
+.box {
+    background-color: rgb(248, 231, 124);
+    width: 300px;
+    border: 5px solid rgb(0, 117, 128);
+    padding: 50px;
+    margin: 20px;
+}
+
+.button {
+    color: white;
+    background-color: green;
+    border: 2px solid rgb(216, 49, 49);
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+}
+
+.button:hover {
+    cursor: pointer;
+    color: green;
+    background-color: white;
+}

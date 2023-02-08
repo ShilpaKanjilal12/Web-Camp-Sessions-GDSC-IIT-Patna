@@ -1,0 +1,94 @@
+body{
+  font-family: 'Charis SIL', serif;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Questrial', sans-serif;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-1;
+  }
+
+  .content{
+    height:auto;
+    width:450px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    margin-top:7%;
+    border-radius:20px;
+    background:#a9dfe2ab;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0);
+  }
+h1{
+font-size:3rem;
+font-family: 'Playfair Display SC', serif;
+color:#1f1a43
+}
+  span{
+    font-size: 150px;
+    padding: 40px 30px;
+    color: #13276a
+  }
+
+  .btn{
+    border: 2px solid black;
+    box-shadow: 0px 1px 1px 0px #a1f9ddfa;
+    padding:12px;
+    border-radius: 12px;
+    margin:5px;
+    margin-bottom:30px;
+    cursor:pointer;
+    background:#cde6df;
+    font-family: 'Electrolize', sans-serif;
+    font-size:1rem;
+  font-weight:bold;
+    
+  }
+.btn:hover{
+  background:#7ce6d1;
+  color:#1c3075;
+  font-weight:bold;
+  
+}
+  #error{
+    font-size:1.2rem;
+    font-weight:bold;
+    display:none;
+    color: #f34907;
+    border: 2px solid #121359;
+    background:white;
+    padding:10px;
+    border-radius: 20px;
+  }
+
+/* media query */
+@media only screen and (max-width: 460px ){
+  .content{
+    width:300px;
+  }
+  h1{
+    font-size:1.5rem;
+  }
+  #error{
+    margin:20px;
+  }
+}
+
+@media only screen and (max-width: 300px ){
+  .content{
+    width:170px;
+  }
+  h1{
+    font-size:1.2rem;
+  }
+  .btn{
+    display:flex;
+  }
+}

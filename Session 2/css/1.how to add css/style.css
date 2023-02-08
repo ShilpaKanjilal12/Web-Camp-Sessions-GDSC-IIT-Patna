@@ -1,0 +1,12 @@
+.para1 {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* id selector */
+#para4 {
+    color: rebeccapurple;
+    font-size: 20px;
+    text-align: center;
+}

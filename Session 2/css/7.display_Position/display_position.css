@@ -1,0 +1,47 @@
+.block {
+    background-color: rgb(234, 111, 23);
+}
+
+.inline span {
+    background-color: rgb(122, 96, 238);
+}
+
+.inline a {
+    background-color: rgb(63, 210, 30);
+}
+
+.static {
+    position: static;
+    border: 2px solid green;
+    margin: 20px 0px;
+}
+
+.relative {
+    position: relative;
+    left: 30px;
+    /* height:200px;
+    width:400px; */
+    border: 2px solid rgb(128, 32, 0);
+    margin: 20px 0px;
+}
+
+/* .absolute{
+    position:absolute;
+    top:80px;
+    right:0;
+    width:200px;
+    border: 2px solid green;
+} */
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 2px solid rgb(128, 32, 0);
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    border: 2px solid green;
+}
